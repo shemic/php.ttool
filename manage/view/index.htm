@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  dir="ltr" lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<script src="<?=TT_HTTP?>/view/js/jquery-1.2.6.min.js"></script>
+<script src="<?=TT_HTTP?>/view/js/config.js"></script>
+<script src="<?=TT_HTTP?>/view/js/extend.js"></script>
+<script src="<?=TT_HTTP?>/view/js/manage.js"></script>
+<script>$_c_v('root', '<?=TT_HTTP?>');</script>
+<title>管理中心 &lsaquo; ttserver管理系统v1.0beta版  &#8212; 金鹰网</title>
+</head>
+
+<body>
+<style>
+#content
+{
+    margin-top:20px;
+}
+#nav li
+{
+    display: inline;
+    list-style-type: none;
+    padding: 5px 2px;
+    cursor:pointer;
+    color:blue;
+}
+</style>
+<div id="nav">
+    <ul>
+        <li onclick="manage.go('view=manage');">[项目配置]</a></li>
+        <li onclick="manage.go('view=server&oper=start');">[开启服务]</a></li>
+        <li onclick="manage.go('view=server&oper=stop');">[关闭服务]</a></li>
+        <li onclick="manage.go('view=server&oper=bak');">[备份数据]</a></li>
+        <li onclick="manage.go('view=server&oper=bakdel');">[删除备份]</a></li>
+        <li onclick="manage.go('view=server&oper=bakroll');">[数据恢复]</a></li>
+        <li onclick="manage.go('view=server&oper=del');">[数据清理]</a></li>
+        <li onclick="manage.go('view=server&oper=ulog');">[日志清理]</a></li>
+        <li style="display:none;" onclick="manage.go('view=log');">[系统日志]</a></li>
+    </ul>
+</div>
+
+<div id="content">
+    <ul>
+        <li>欢迎来到ttserver管理工具v1.0beta。</li>
+        <li>创作者：yubin</li>
+        <li>点击功能按钮进行操作</li>
+    </ul>
+</div>
+
+</body>
+</html>

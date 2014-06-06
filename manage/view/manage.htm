@@ -1,0 +1,9 @@
+【项目配置】[<a href="javascript:;" onclick="manage.go('view=manage&type=new')">新增</a>]
+<div>
+<ul>
+    <?php foreach($data['path'] as $k => $v):?><?php if(strstr($v, '.php')):?>
+    <?php $name = str_replace('.php','',$v)?>
+    <li><input type="checkbox" name="check_<?=$name?>" id="check_<?=$name?>" value="<?=$name?>"><?=$name?><span class="mine-right-model-red">[<a href="javascript:;" onclick="manage.go('view=manage&type=set&name=<?=$name?>')">源文件</a>]</span></li>
+    <?php endif;?><?php endforeach;?>
+</ul>
+</div>

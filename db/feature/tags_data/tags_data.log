@@ -1,0 +1,14 @@
+2012-06-12T11:59:15+08:00	SYSTEM	--------- logging started [14535] --------
+2012-06-12T11:59:15+08:00	SYSTEM	process ID configuration: path=/home/www/yubin/tt/db/feature/tags_data/tags_data.pid pid=14535
+2012-06-12T11:59:15+08:00	SYSTEM	server configuration: host=192.168.1.203 port=2022
+2012-06-12T11:59:15+08:00	SYSTEM	maximum connection: 1048575
+2012-06-12T11:59:15+08:00	SYSTEM	opening the database: /home/www/yubin/tt/db/feature/tags_data/tags_data.tct#idx=cdate:dec#bnum=1000000#rcnum=1000000#dfunit=8
+2012-06-12T11:59:15+08:00	SYSTEM	service started: 14535
+2012-06-12T11:59:15+08:00	SYSTEM	listening started
+2012-07-03T16:01:11+08:00	SYSTEM	--------- logging started [2644] --------
+2012-07-03T16:01:11+08:00	SYSTEM	process ID configuration: path=/home/www/yubin/tt/db/feature/tags_data/tags_data.pid pid=2644
+2012-07-03T16:01:11+08:00	SYSTEM	server configuration: host=192.168.1.203 port=2022
+2012-07-03T16:01:11+08:00	SYSTEM	maximum connection: 1048575
+2012-07-03T16:01:11+08:00	SYSTEM	opening the database: /home/www/yubin/tt/db/feature/tags_data/tags_data.tct#idx=cdate:dec#bnum=1000000#rcnum=1000000#dfunit=8
+2012-07-03T16:01:11+08:00	SYSTEM	service started: 2644
+2012-07-03T16:01:11+08:00	SYSTEM	listening started

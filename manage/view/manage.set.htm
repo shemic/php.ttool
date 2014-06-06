@@ -1,0 +1,8 @@
+【项目配置】[<a href="javascript:;" onclick="manage.go('view=manage')">编辑</a>][<a href="javascript:;" onclick="manage.go('view=manage&type=new')">新增</a>]
+<div>
+<ul>
+    <li><div id="show" ondblclick="manage.edit()"><?=highlight_string($data['data'], true)?></div><div style="display:none;" id="edit" ondblclick="manage.show()"><textarea type="text" name="<?=$data['name']?>" id="<?=$data['name']?>" style="width:600px;height:500px;"><?=$data['data']?></textarea></div></li>
+
+    <li id="edit_show" style="display:none;"><input type="button" value="确定修改" class="mine-right-model-button" onclick="manage.editpost('<?=$data['name']?>');"/></li>
+</ul>
+</div>
